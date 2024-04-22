@@ -1,5 +1,7 @@
 <?php
 
-$number = 12;
-$number += 13;
-echo $number;
+$num = 12;
+
+$num = $num + 13;
+
+echo $num;
