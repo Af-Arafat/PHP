@@ -1,11 +1,14 @@
 <?php
-
 $num = 12;
-
-
-
 $num = $num + 13;
+echo $num ,"\n";
 
-echo $num;
 
-echo " Hello Arafat";
+
+$n = 7;
+$m = $n++;
+echo $m, "\n", $n;
+
+$m = $n++;
+$m = $n;
+$n = $n + 1;
